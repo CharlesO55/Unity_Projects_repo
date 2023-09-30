@@ -1,0 +1,101 @@
+#Background{
+	--unity-image: url("/Assets/Resources/Sprites/BG.png");
+
+	flex-direction: column;
+	/*align-self: stretch;*/
+	align-self: center;
+	margin-top: auto;
+	justify-content: center;
+}
+
+.unity-image{
+	--unity-image-size: scale-to-fit;
+}
+
+
+#DrawButton{
+	color: white;
+	background-color: rgb(28, 1, 81);
+	-unity-font-style: bold;
+	font-size: 750%;
+	align-self: center;
+	border-radius: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+
+
+#Top{
+	flex-direction: row;
+	align-items: stretch;
+	align-self: center;
+}
+#Cards{
+	flex-direction: row;
+	align-items: stretch;
+	align-self: center;
+}
+
+#Bottom{
+	flex-direction: row;
+	align-items: stretch;
+	align-self: center;
+	left: 20%;
+}
+
+
+#PortraitContainer{
+	position: absolute;
+	flex-direction: row;
+	align-self: center;
+	align-items: center;
+	top: 66%;
+}
+
+/*Corners*/
+#Corner1{ --unity-image: url("/Assets/Resources/Sprites/Corners/Corner1.png"); }
+#Corner2{ --unity-image: url("/Assets/Resources/Sprites/Corners/Corner2.png"); }
+#Corner3{ --unity-image: url("/Assets/Resources/Sprites/Corners/Corner3.png"); }
+#Corner4{ --unity-image: url("/Assets/Resources/Sprites/Corners/Corner4.png"); }
+
+/*Cards*/
+#CardSpade{ --unity-image: url("/Assets/Resources/Sprites/Cards/CardSpade.png"); }
+#CardHeart{ --unity-image: url("/Assets/Resources/Sprites/Cards/CardHeart.png"); }
+#CardDiamond{ --unity-image: url("/Assets/Resources/Sprites/Cards/CardDiamond.png"); }
+#CardFiller{ 
+	height: 350px;
+
+/*	margin-bottom: 0px; 
+	font-size: 280%; */
+/*
+	 --unity-image: url("/Assets/Resources/Sprites/Cards/CardDiamond.png");
+	width: 0%; 
+	scale: 100;
+	height: initial;*/
+}
+
+
+.cards_template{
+	height: 90%;
+	align-self: center;
+}
+
+/*Portrait*/
+#PortraitBG{
+	--unity-image: url("/Assets/Resources/Sprites/Portrait/PortraitBG.png");
+}
+#PortraitFrame{
+	--unity-image: url("/Assets/Resources/Sprites/Portrait/PortraitFrame.png");
+}
+#PortraitImage{
+	--unity-image: url("/Assets/Resources/Sprites/Portrait/PortraitImage.png");
+	position: absolute;
+	left: 40%;
+}
+#PortraitFiller{
+	--unity-image: url("/Assets/Resources/Sprites/Portrait/PortraitBG.png");
+	margin-right: -20%; 
+	margin-left: -20%;
+	visibility: hidden;
+}

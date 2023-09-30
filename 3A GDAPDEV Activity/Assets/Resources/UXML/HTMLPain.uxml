@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/USS/CSSPain.uss?fileID=7433441132597879392&amp;guid=0291997b2b4832943a1ea68f48d793b1&amp;type=3#CSSPain" />
+    <ui:VisualElement>
+        <ui:Image name="Background" style="margin-right: auto; margin-bottom: auto; margin-left: auto;">
+            <ui:VisualElement name="Top">
+                <ui:Image name="Corner1" />
+                <ui:Button text="DRAW" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DrawButton" />
+                <ui:Image name="Corner2" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Cards">
+                <ui:Image name="CardSpade" class="cards_template" />
+                <ui:Image name="CardDiamond" class="cards_template" />
+                <ui:Image name="CardHeart" class="cards_template" />
+                <ui:VisualElement name="CardFiller" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PortraitContainer">
+                <ui:Image name="PortraitBG" />
+                <ui:Image name="PortraitImage">
+                    <ui:Image name="PortraitFrame" />
+                </ui:Image>
+            </ui:VisualElement>
+            <ui:VisualElement name="Bottom">
+                <ui:Image name="Corner3" />
+                <ui:Image name="PortraitFiller" />
+                <ui:Image name="Corner4" />
+            </ui:VisualElement>
+        </ui:Image>
+    </ui:VisualElement>
+</ui:UXML>
