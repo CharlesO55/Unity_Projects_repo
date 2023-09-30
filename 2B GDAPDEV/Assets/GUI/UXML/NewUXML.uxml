@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GUI/USS/NewUSS.uss?fileID=7433441132597879392&amp;guid=a828e5f78b6418c4c899f007e935fb41&amp;type=3#NewUSS" />
+    <ui:VisualElement name="HUD">
+        <ui:Image name="HUD1" />
+        <ui:Image name="HUD2">
+            <ui:Image name="RoundButt" />
+        </ui:Image>
+        <ui:VisualElement name="HUD3">
+            <ui:Image name="HUDPart3BG" />
+            <ui:VisualElement name="ButtonsContainer">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="SquareButtons" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="SquareButtons" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="SquareButtons" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="SquareButtons" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="SquareButtons" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Image name="HUD4">
+            <ui:VisualElement>
+                <ui:Image name="HUDFrame" />
+            </ui:VisualElement>
+        </ui:Image>
+        <ui:Image name="HUD5" />
+    </ui:VisualElement>
+</ui:UXML>

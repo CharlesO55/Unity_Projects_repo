@@ -1,0 +1,67 @@
+#HUD{	
+	position: relative;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: auto;
+}
+
+.unity-image{
+	--unity-image-size: scale-to-fit;
+}
+
+#HUD1{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Part 1.png");
+}
+
+#HUD2{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Part 2.png");
+}
+
+#HUD3{
+/*	--unity-image: url("/Assets/Sprites/HUD/HUD Part 3.png");*/
+}
+
+#HUD4{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Part 4.png");
+}
+
+#HUD5{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Part 5.png");
+}
+
+#HUDFrame{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Picture Frame.png");
+}
+
+
+#HUDPart3BG{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Part 3.png");
+}
+
+#ButtonHolder{
+	flex-direction: row;
+}
+
+#ButtonsContainer{
+	position: absolute;
+	top: 48%;
+	flex-direction: row;
+	align-self: center;
+}
+
+.SquareButtons{
+	background-image: url("/Assets/Sprites/HUD/HUD Square Button.png");
+	min-height: 100px;
+	min-width: 100px;
+	margin-left: 2%;
+}
+
+#RoundButt{
+	--unity-image: url("/Assets/Sprites/HUD/HUD Round Button.png");
+	margin-top: 67%;
+}
+
+
+#ActualButton{
+	background-image: url("/Assets/Sprites/HUD/HUD Round Button.png");
+}
