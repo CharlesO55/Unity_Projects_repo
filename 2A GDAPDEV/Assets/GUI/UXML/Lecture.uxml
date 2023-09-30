@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/GUI/USS/Lecture.uss?fileID=7433441132597879392&amp;guid=ae748abca85e2ea4e8cbaefd9741f981&amp;type=3#Lecture" />
+    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" class="sample-button" />
+    <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" class="sample-button" style="background-color: rgb(209, 139, 88);" />
+    <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" class="sample-button" />
+    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TitleLabel" />
+</ui:UXML>
