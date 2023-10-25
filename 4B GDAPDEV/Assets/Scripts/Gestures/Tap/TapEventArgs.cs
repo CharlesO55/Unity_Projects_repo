@@ -12,8 +12,17 @@ public class TapEventArgs : EventArgs
         set { this._position = value; }
     }
 
-    public TapEventArgs(Vector2 position)
+    
+
+    private GameObject _hitObject;
+    public GameObject HitObject { 
+        get { return _hitObject; }
+        set { this._hitObject = value; }
+    }
+
+    public TapEventArgs(Vector2 position, GameObject hitObject = null)
     {
         this._position = position;
+        this._hitObject = hitObject;
     }
 }
