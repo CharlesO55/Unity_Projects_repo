@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/GUI/GUIStyle.uss?fileID=7433441132597879392&amp;guid=6bae1c71400cca048a90307e05c8f148&amp;type=3#GUIStyle" />
+    <ui:VisualElement class="equipmentPart">
+        <ui:Image name="EMFTop" class="equipmentTop">
+            <ui:Image class="blank" />
+            <ui:Image name="EMFTop1" class="equipmentTop" />
+            <ui:Image name="EMFTop2" class="equipmentTop" />
+            <ui:Image name="EMFTop3" class="equipmentTop" />
+            <ui:Image name="EMFTop4" class="equipmentTop" />
+            <ui:Image name="EMFTop5" class="equipmentTop" />
+        </ui:Image>
+        <ui:Image name="SpiritBoxTop" class="equipmentTop" />
+    </ui:VisualElement>
+    <ui:VisualElement class="equipmentPart">
+        <ui:Image name="EMFBottom" class="equipmentBottom">
+            <ui:Image class="blank" />
+            <ui:Image name="EMFBottom1" class="equipmentBottom" />
+            <ui:Image name="EMFBottom2" class="equipmentBottom" />
+            <ui:Image name="EMFBottom3" class="equipmentBottom" />
+            <ui:Image name="EMFBottom4" class="equipmentBottom" />
+            <ui:Image name="EMFBottom5" class="equipmentBottom" />
+        </ui:Image>
+        <ui:Image name="SpiritBoxBottom" class="equipmentBottom" />
+    </ui:VisualElement>
+</ui:UXML>

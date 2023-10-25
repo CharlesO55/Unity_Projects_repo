@@ -1,0 +1,90 @@
+.unity-image {
+	--unity-image-size: scale-to-fit;
+}
+
+.equipmentPart {
+	width: 100%;
+	height: 100%;
+}
+
+.equipmentTop {
+	position: absolute;
+	top: 0;
+}
+
+.equipmentBottom {
+	position: absolute;
+	bottom: 0;
+}
+
+.blank {
+	--unity-image: url("/Assets/Sprites/Equipment/Blank.png");
+}
+
+#EMFTop {
+	visibility: hidden;
+}
+
+#EMFBottom {
+	visibility: hidden;
+}
+
+#EMFTop1 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Top).png");
+	visibility: hidden;
+}
+
+#EMFBottom1 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Bottom).png");
+	visibility: hidden;
+}
+
+#EMFTop2 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Top) Level 2.png");
+	visibility: hidden;
+}
+
+#EMFBottom2 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Bottom) Level 2.png");
+	visibility: hidden;
+}
+
+#EMFTop3 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Top) Level 3.png");
+	visibility: hidden;
+}
+
+#EMFBottom3 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Bottom) Level 3.png");
+	visibility: hidden;
+}
+
+#EMFTop4 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Top) Level 4.png");
+	visibility: hidden;
+}
+
+#EMFBottom4 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Bottom) Level 4.png");
+	visibility: hidden;
+}
+
+#EMFTop5 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Top) Level 5.png");
+	visibility: hidden;
+}
+
+#EMFBottom5 {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment EMF (Bottom) Level 5.png");
+	visibility: hidden;
+}
+
+#SpiritBoxTop {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment Spirit Box (Top).png");
+	visibility: hidden;
+}
+
+#SpiritBoxBottom {
+	--unity-image: url("/Assets/Sprites/Equipment/Equipment Spirit Box (Bottom).png");
+	visibility: hidden;
+}
