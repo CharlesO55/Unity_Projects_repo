@@ -1,0 +1,44 @@
+.unity-image {
+	--unity-image-size: scale-to-fit;
+}
+
+#Parent {	
+	width: 100%;
+	height: 100%;
+}
+
+.screen-text {
+	position: absolute;
+	-unity-font-style: bold;
+	-unity-text-align: upper-center;
+	color: rgb(106, 244, 244);
+
+	left: 0%;
+	right: 54%;
+}
+
+#Score {
+	font-size: 60px;
+	top: 14%;
+}
+
+#ScoreValue {
+	font-size: 90px;
+	top: 20%;
+}
+
+#Speed {
+	font-size: 60px;
+	top: 36%;
+}
+
+#SpeedValue {
+	font-size: 90px;
+	top: 42%;
+}
+
+#ScreenBorder {
+	width: 100%;
+	height: 100%;
+	--unity-image: url("/Assets/Sprites/Information/Screen Border.png");
+}

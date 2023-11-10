@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/GUI/GUIStyle.uss?fileID=7433441132597879392&amp;guid=947603b20e873784aad9e017640a19d5&amp;type=3#GUIStyle" />
+    <ui:VisualElement name="Parent">
+        <ui:Image name="ScreenBorder" />
+        <ui:Label name="Score" class="screen-text" text="SCORE" />
+        <ui:Label name="ScoreValue" class="screen-text" text="0000" />
+        <ui:Label name="Speed" class="screen-text" text="SPEED" />
+        <ui:Label name="SpeedValue" class="screen-text" text="100%" />
+    </ui:VisualElement>
+</ui:UXML>
