@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/testingUIDOc/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=b9bd41cad129575468f237a09c926236&amp;type=3#NewUSSFile" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TestButton" style="background-image: url(&apos;project://database/Assets/testingUIDOc/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1087164816274819069&amp;guid=17a3732f4a400664ca046fdbd988b846&amp;type=3#arrow-right@2x&apos;);" />
+        <ui:Image name="TestImage" style="background-image: none;" />
+    </ui:VisualElement>
+</ui:UXML>

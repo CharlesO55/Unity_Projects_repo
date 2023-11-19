@@ -1,0 +1,5 @@
+VisualElement {}
+
+#TestImage{
+	--unity-image : url("/Assets/Textures/boccher.png");
+}
