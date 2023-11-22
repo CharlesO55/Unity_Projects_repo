@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/GUI/GUIStyle.uss?fileID=7433441132597879392&amp;guid=2e24d675b108b6d40b122775d51a3711&amp;type=3#GUIStyle" />
+    <ui:Label name="HandRanking" text="WAITING FOR CARDS" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    <ui:VisualElement name="ButtonContainer">
+        <ui:Button name="Draw" text="DRAW" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
