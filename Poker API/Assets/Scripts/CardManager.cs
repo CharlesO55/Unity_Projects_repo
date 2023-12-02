@@ -27,7 +27,7 @@ public class CardManager : MonoBehaviour {
      * and sets it as the main texture of [this.gameObject]. */
     private IEnumerator DownloadTexture(string url)
     {
-        /* * * * * [TODO] * * * * */
+        /* * * * * [TODO] * * * * */ 
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(url);
         yield return request.SendWebRequest();
 

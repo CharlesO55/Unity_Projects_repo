@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 65775051}
   - component: {fileID: 65775050}
   - component: {fileID: 65775053}
+  - component: {fileID: 65775054}
   m_Layer: 0
   m_Name: Card 2
   m_TagString: Untagged
@@ -201,7 +202,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da925da13814a6d46b8daaa1e02079c9, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -243,7 +244,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2aa8623f6474b89551aa7b3f5db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardBack: {fileID: 2100000, guid: da925da13814a6d46b8daaa1e02079c9, type: 2}
+  _cardBack: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &65775054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65775048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea91a4649dfa1d24da3a92ed2e23000c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _address: Assets/Materials/Card Back A.mat
 --- !u!1 &71616374
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +445,7 @@ GameObject:
   - component: {fileID: 370791051}
   - component: {fileID: 370791050}
   - component: {fileID: 370791053}
+  - component: {fileID: 370791054}
   m_Layer: 0
   m_Name: Card 1
   m_TagString: Untagged
@@ -496,7 +511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4a5ed6a82a40bf64b9e579a7d2b82f84, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,6 +554,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cardBack: {fileID: 2100000, guid: 4a5ed6a82a40bf64b9e579a7d2b82f84, type: 2}
+--- !u!114 &370791054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370791048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963b4eca9bb866240915d45072a79e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _reference:
+    m_AssetGUID: 4a5ed6a82a40bf64b9e579a7d2b82f84
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1 &403622523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,8 +1057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: db336d10e4fc3674ab0f9b24dcd0f5f9, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 11775062d314c064cb292397e01d18d8,
-    type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 11775062d314c064cb292397e01d18d8, type: 3}
   m_SortingOrder: 0
 --- !u!4 &1152762632
 Transform:
@@ -1068,6 +1099,7 @@ GameObject:
   - component: {fileID: 1440254498}
   - component: {fileID: 1440254497}
   - component: {fileID: 1440254500}
+  - component: {fileID: 1440254501}
   m_Layer: 0
   m_Name: Card 3
   m_TagString: Untagged
@@ -1133,7 +1165,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4a5ed6a82a40bf64b9e579a7d2b82f84, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1175,7 +1207,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2aa8623f6474b89551aa7b3f5db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardBack: {fileID: 2100000, guid: 4a5ed6a82a40bf64b9e579a7d2b82f84, type: 2}
+  _cardBack: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &1440254501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440254495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b22796165dcb641a6308cbeddcb8a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _labels:
+  - Card
 --- !u!1 &1524624384
 GameObject:
   m_ObjectHideFlags: 0
