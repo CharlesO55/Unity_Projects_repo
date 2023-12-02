@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Scripts/UI/GUIStyle.uss?fileID=7433441132597879392&amp;guid=b6c587f0f683c694d85584555ebfc054&amp;type=3#GUIStyle" />
+    <ui:VisualElement>
+        <ui:Button text="Send Notification" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SendNotifications" />
+        <ui:Button text="Send Repeating Notification" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SendRepeatingNotification" />
+    </ui:VisualElement>
+</ui:UXML>
